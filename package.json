@@ -1,0 +1,36 @@
+{
+      "name"                        : "ee-mysql-connection"
+    , "description"                 : "package description"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/ee-mysql-connection"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "os"                          : "!win"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/ee-mysql-connection.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/ee-mysql-connection/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "*"
+        , "ee-event-emitter"        : "*"
+        , "ee-types"                : "*"
+        , "ee-log"                  : "*"
+        , "ee-project"              : "*"
+        , "mysql"                   : "mysql@2.0.0-rc1"
+    }
+    , "devDependencies": {
+          "mocha"                   : "*"
+        , "ee-travis"               : "*"
+    }
+    , "optionalDependencies": {}
+    , "keywords"                    : []
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
