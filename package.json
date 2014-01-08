@@ -22,7 +22,7 @@
         , "ee-types"                : "*"
         , "ee-log"                  : "*"
         , "ee-project"              : "*"
-        , "mysql"                   : "mysql@2.0.0-rc1"
+        , "mysql"                   : "2.0.0-rc1"
     }
     , "devDependencies": {
           "mocha"                   : "*"
