@@ -21,6 +21,8 @@
         , "ee-event-emitter"        : "*"
         , "ee-types"                : "*"
         , "ee-log"                  : "*"
+        , "ee-async"                : "*"
+        , "ee-argv"                 : "*"
         , "ee-project"              : "*"
         , "mysql"                   : "2.0.0-rc1"
     }
