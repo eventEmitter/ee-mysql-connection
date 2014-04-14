@@ -10,7 +10,7 @@
     var connection = new MySQLConnection({
           host      : '10.80.100.1'
         , username  : 'root'
-        , password  : 'palm15/20singlemalt'
+        , password  : ''
         , port      : 3306
         , database  : 'eventbooster'
     });
