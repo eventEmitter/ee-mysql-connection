@@ -18,12 +18,12 @@
 
 		it('should emit an «on load» event', function(done){
 			schema = new Schema({
-				  dialect: 	'postgres'
+				  dialect: 	'mysql'
 				, host: 	process.ENV.DB_HOST
 				, port: 	process.ENV.DB_PORT
-				, user: 	'postgres'
+				, user: 	process.ENV.DB_USER
 				, password: process.ENV.DB_PASS
-				, database: 'wpm'
+				, database: 'eventbox'
 				, models: 	path.join(__dirname, '../schema')
 			});
 
