@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-mysql-connection"
     , "description"                 : "mysql connection abstraction for ee-orm"
-    , "version"                     : "0.2.0"
+    , "version"                     : "0.2.1"
     , "homepage"                    : "https://github.com/eventEmitter/ee-mysql-connection"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
     , "licence"                     : "mit"
@@ -17,8 +17,8 @@
         "url"                       : "https://github.com/eventEmitter/ee-mysql-connection/issues"
     }
     , "dependencies": {
-          "ee-class"                : "0.4.x"
-        , "ee-event-emitter"        : "0.1.x"
+          "ee-class"                : "1.0.x"
+        , "ee-event-emitter"        : "0.2.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
         , "ee-async"                : "0.2.x"
