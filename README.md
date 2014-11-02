@@ -1,14 +1,7 @@
 # ee-mysql-connection
 
-description
+mysql connection abstraction for ee-orm
 
 ## installation
 
-
-
-## build status
-
-[![Build Status](https://travis-ci.org/eventEmitter/ee-mysql-connection.png?branch=master)](https://travis-ci.org/eventEmitter/ee-mysql-connection)
-
-
-## usage
+    npm install ee-mysql-connection
