@@ -1,6 +1,6 @@
 # ee-mysql-connection
 
-mysql connection abstraction for ee-orm
+mysql connection abstraction for the related orm
 
 ## installation
 
