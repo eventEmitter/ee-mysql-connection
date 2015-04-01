@@ -1,19 +1,19 @@
 {
-      "name"                            : "ee-mysql-connection"
-    , "description"                     : "mysql connection abstraction for the related orm"
-    , "version"                         : "0.6.0"
-    , "homepage"                        : "https://github.com/eventEmitter/ee-mysql-connection"
-    , "author"                          : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
+      "name"                            : "related-mysql-connection"
+    , "description"                     : "mysql connection implementation for the related orm"
+    , "version"                         : "0.7.0"
+    , "homepage"                        : "https://github.com/eventEmitter/related-mysql-connection"
+    , "author"                          : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
     , "licence"                         : "mit"
     , "repository": {
-          "url"                         : "https://github.com/eventEmitter/ee-mysql-connection.git"
+          "url"                         : "https://github.com/eventEmitter/related-mysql-connection.git"
         , "type"                        : "git"
     }
     , "engines": {
         "node"                          : ">=v0.10.17"
     }
     , "bugs": {
-        "url"                           : "https://github.com/eventEmitter/ee-mysql-connection/issues"
+        "url"                           : "https://github.com/eventEmitter/related-mysql-connection/issues"
     }
     , "dependencies": {
           "ee-class"                    : "1.0.x"
@@ -22,11 +22,9 @@
         , "ee-log"                      : "0.2.x"
         , "ee-async"                    : "0.2.x"
         , "ee-argv"                     : "0.1.x"
-        , "ee-project"                  : "0.2.x"
-        , "mysql"                       : "2.5.2"
-        , "ee-mysql-query-builder"      : "0.2.x"
-        , "ee-db-connection"            : "0.3.x"
-        , "moment"                      : "2.5.x"
+        , "mysql"                       : "2.6.x"
+        , "related-mysql-query-builder" : "0.3.x"
+        , "related-db-connection"       : "0.4.x"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}

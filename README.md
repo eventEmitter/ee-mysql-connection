@@ -1,7 +1,3 @@
-# ee-mysql-connection
+# related-mysql-connection
 
-mysql connection abstraction for the related orm
-
-## installation
-
-    npm install ee-mysql-connection
+Creates connections to the MySQL Server for the [Related ORM](https://www.npmjs.com/package/related).
