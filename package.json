@@ -1,7 +1,7 @@
 {
       "name"                            : "related-mysql-connection"
     , "description"                     : "mysql connection implementation for the related orm"
-    , "version"                         : "0.7.3"
+    , "version"                         : "0.7.4"
     , "homepage"                        : "https://github.com/eventEmitter/related-mysql-connection"
     , "author"                          : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
     , "licence"                         : "mit"
@@ -22,6 +22,7 @@
         , "ee-log"                      : "0.2.x"
         , "ee-async"                    : "0.2.x"
         , "ee-argv"                     : "0.1.x"
+        , "related-error"               : "0.1.x"
         , "mysql"                       : "2.6.x"
         , "related-mysql-query-builder" : "0.3.x"
         , "related-db-connection"       : "0.4.x"
