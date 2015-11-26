@@ -1,7 +1,7 @@
 {
       "name"                            : "related-mysql-connection"
     , "description"                     : "mysql connection implementation for the related orm"
-    , "version"                         : "0.7.5"
+    , "version"                         : "2.0.0"
     , "homepage"                        : "https://github.com/eventEmitter/related-mysql-connection"
     , "author"                          : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
     , "license"                         : "MIT"
@@ -18,16 +18,19 @@
     , "dependencies": {
           "ee-class"                    : "1.x"
         , "ee-types"                    : "1.x"
+        , "mysql"                       : "2.x"
+        , "related-db-connection"       : "2.x"
         , "ee-event-emitter"            : "0.3.x"
         , "ee-log"                      : "0.3.x"
         , "ee-async"                    : "0.2.x"
         , "ee-argv"                     : "0.1.x"
         , "related-error"               : "0.1.x"
-        , "mysql"                       : "2.6.x"
-        , "related-mysql-query-builder" : "0.3.x"
-        , "related-db-connection"       : "0.4.x"
     }
-    , "devDependencies": {}
+    , "devDependencies": {
+          "mocha"                       : "2.x"
+        , "test-config"                 : "0.1.x"
+        , "related-query-context"       : "2.x"
+    }
     , "optionalDependencies": {}
     , "scripts": {
         "test"                          : "./node_modules/mocha/bin/mocha --reporter spec"
