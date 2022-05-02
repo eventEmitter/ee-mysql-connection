@@ -1,37 +1,37 @@
 {
-      "name"                            : "related-mysql-connection"
-    , "description"                     : "mysql connection implementation for the related orm"
-    , "version"                         : "2.0.1"
-    , "homepage"                        : "https://github.com/linaGril/related-mysql-connection"
-    , "author"                          : "Michael van der Weg <lina@vanderweg.ch>"
-    , "license"                         : "MIT"
-    , "repository": {
-          "url"                         : "https://github.com/linaGril/related-mysql-connection.git"
-        , "type"                        : "git"
-    }
-    , "engines": {
-        "node"                          : ">=v0.12"
-    }
-    , "bugs": {
-        "url"                           : "https://github.com/linaGril/related-mysql-connection/issues"
-    }
-    , "dependencies": {
-          "ee-types"                    : "1.x"
-        , "mysql"                       : "2.x"
-        , "related-db-connection"       : "2.x"
-        , "ee-event-emitter"            : "0.3.x"
-        , "ee-log"                      : "0.3.x"
-        , "ee-async"                    : "0.2.x"
-        , "ee-argv"                     : "0.1.x"
-        , "related-error"               : "0.1.x"
-    }
-    , "devDependencies": {
-          "mocha"                       : "2.x"
-        , "test-config"                 : "0.1.x"
-        , "related-query-context"       : "2.x"
-    }
-    , "optionalDependencies": {}
-    , "scripts": {
-        "test"                          : "./node_modules/mocha/bin/mocha --reporter spec"
-    }
+      "name": "related-mysql-connection",
+      "description": "mysql connection implementation for the related orm",
+      "version": "2.0.2",
+      "homepage": "https://github.com/linaGril/related-mysql-connection",
+      "author": "Michael van der Weg <lina@vanderweg.ch>",
+      "license": "MIT",
+      "repository": {
+            "url": "https://github.com/linaGril/related-mysql-connection.git",
+            "type": "git"
+      },
+      "engines": {
+            "node": ">=v0.12"
+      },
+      "bugs": {
+            "url": "https://github.com/linaGril/related-mysql-connection/issues"
+      },
+      "dependencies": {
+            "ee-types": "1.x",
+            "mysql": "2.x",
+            "related-db-connection": "2.x",
+            "ee-event-emitter": "0.3.x",
+            "ee-log": "0.3.x",
+            "ee-async": "0.2.x",
+            "ee-argv": "0.1.x",
+            "related-error": "0.1.x"
+      },
+      "devDependencies": {
+            "mocha": "2.x",
+            "test-config": "0.1.x",
+            "related-query-context": "2.x"
+      },
+      "optionalDependencies": {},
+      "scripts": {
+            "test": "./node_modules/mocha/bin/mocha --reporter spec"
+      }
 }
