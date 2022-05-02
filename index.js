@@ -1,4 +1,4 @@
 
 
 
-	module.exports = require('./lib/MySQLConnection');
+	module.exports = require('./src/MySQLConnection.js');
